@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "109258666471",
+    "firebase_url": "https://socialrpgpuzzle-85412621.firebaseio.com",
+    "project_id": "socialrpgpuzzle-85412621",
+    "storage_bucket": "socialrpgpuzzle-85412621.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109258666471:android:0311d58f4e6f13cd",
+        "android_client_info": {
+          "package_name": "fusion.com.soicalrpgpuzzle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109258666471-o352vls6jvjles1dc3l8gd9c2u7gsgov.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fusion.com.soicalrpgpuzzle",
+            "certificate_hash": "D3347FA3F97C9A372A9D2EF71A817F4BC7B630AD"
+          }
+        },
+        {
+          "client_id": "109258666471-r2ohuoqh8giladr47nbaera0ti8pqk7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgD-P7iN5Syk8gy9My2yiibteHBaHcXXE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109258666471-r2ohuoqh8giladr47nbaera0ti8pqk7b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

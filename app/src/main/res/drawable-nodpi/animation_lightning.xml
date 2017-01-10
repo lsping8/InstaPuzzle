@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:drawable="@drawable/light_1"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_2"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_3"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_4"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_5"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_6"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_7"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_8"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_9"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_10"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_11"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_12"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_13"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_14"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_15"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_16"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_17"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_18"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_19"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_20"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_21"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_22"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_23"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_24"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_25"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_26"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_27"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_28"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_29"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_30"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_31"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_32"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_33"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_34"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_35"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_36"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_37"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_38"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_39"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_40"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_41"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_42"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_43"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_44"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_45"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_46"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_47"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_48"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_49"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_50"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_51"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_52"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_53"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_54"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_55"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_56"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_57"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_58"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_59"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_60"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_61"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_62"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_63"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/light_64"
+        android:duration="30" />
+
+</animation-list>

@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/simple_pattern"
+    tools:context=".MainPuzzleActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/topRelativeLayout">
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/source_profile"/>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/versus"
+            android:layout_toRightOf="@+id/source_profile"/>
+
+        <ImageView
+            android:id="@+id/target_profile"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_toRightOf="@+id/versus"/>
+        
+        <fusion.com.soicalrpgpuzzle.Typewriter
+            android:id="@+id/sourceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/source_profile"/>
+
+        <fusion.com.soicalrpgpuzzle.Typewriter
+            android:id="@+id/targetName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="150dp"
+            android:layout_below="@+id/target_profile"
+            android:layout_toRightOf="@+id/sourceName"
+           />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/action_menu"
+        android:background="@drawable/action_menu"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        android:layout_below="@+id/topRelativeLayout">
+
+    </RelativeLayout>
+
+    <com.jmedeisis.draglinearlayout.DragLinearLayout
+
+        android:id="@+id/gameRowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_alignParentBottom="true"
+        android:clipChildren="false"
+        android:gravity="bottom|center_horizontal">
+
+    </com.jmedeisis.draglinearlayout.DragLinearLayout>
+
+
+    <!--
+    <com.jmedeisis.draglinearlayout.DragLinearLayout
+        android:layout_height="350dp"
+        android:layout_width="match_parent"
+        android:id="@+id/mainPuzzleLayout"
+        android:gravity="bottom|center_horizontal"
+        android:clipChildren="false"
+        android:background="#FFFFFF">
+    </com.jmedeisis.draglinearlayout.DragLinearLayout>
+      !-->
+
+</RelativeLayout>

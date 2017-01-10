@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="energy_bar" type="id"/>
+    <item name="cash_bar" type="id"/>
+    <item name="coin_bar" type="id"/>
+    <item name="green" type="id"/>
+    <item name="blue" type="id"/>
+    <item name="yellow" type="id"/>
+    <item name="ownRow_0" type="id"/>
+    <item name="selection" type="id"/>
+    <item name="highlight" type="id"/>
+    <item name="slider" type="id"/>
+    <item name="description" type="id"/>
+    <item name="own_score" type="id"/>
+    <item name="opp_score" type="id"/>
+    <item name="timer_progress" type="id"/>
+    <item name="own_indicator" type="id"/>
+    <item name="opp_indicator" type="id"/>
+    <item name="combo_indicator" type="id"/>
+    <item name="finding_player" type="id"/>
+
+</resources>

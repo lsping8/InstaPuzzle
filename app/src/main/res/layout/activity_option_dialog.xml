@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <GridLayout
+            android:id="@+id/offenceSkill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="1">
+
+        </GridLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <GridLayout
+            android:id="@+id/supportSkill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="1">
+
+        </GridLayout>
+    </ScrollView>
+
+</RelativeLayout>

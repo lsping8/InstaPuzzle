@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/stage"
+        android:background="@drawable/stage_frame"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stage"
+        android:layout_alignParentBottom="true">
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stage_circle_1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stage_circle_2"
+            android:background="@drawable/stage_circle"
+            android:layout_toRightOf="@+id/stage_circle_1"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stage_circle_3"
+            android:background="@drawable/stage_circle"
+            android:layout_toRightOf="@+id/stage_circle_2"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stage_circle_4"
+            android:background="@drawable/stage_circle"
+            android:layout_toRightOf="@+id/stage_circle_3"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stage_circle_5"
+            android:background="@drawable/stage_circle"
+            android:layout_toRightOf="@+id/stage_circle_4"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

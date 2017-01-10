@@ -1,0 +1,86 @@
+<RelativeLayout
+    android:id="@+id/backGround"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:gravity="top"
+    tools:context=".NewPuzzleActivity">
+
+    <RelativeLayout
+        android:id="@+id/puzzle_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <com.jmedeisis.draglinearlayout.DragLinearLayout
+                android:id="@+id/drag_row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom|center_horizontal"
+                android:layout_alignParentBottom="true">
+
+            </com.jmedeisis.draglinearlayout.DragLinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/bottom_screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gesture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#cc000000">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/secondScreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/color_row"
+            android:layout_alignParentTop="true">
+
+            <RelativeLayout
+                android:id="@+id/opponent_screen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/color_row"
+            android:layout_above="@+id/gesture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/color_bar"
+            android:gravity="center_vertical">
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
